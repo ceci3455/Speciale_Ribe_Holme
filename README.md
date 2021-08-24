@@ -1,6 +1,6 @@
 # Speciale_Ribe_Holme
 
-# Thesis data by Cecilie Kristensen 
+# Thesis data and scripts by Cecilie Kristensen 
 # For questions and more information: ceciliekristensen1009@gmail.com
 
 This github contains the data (6 csv-files) and the scripts (5 R-scripts) 
