@@ -56,5 +56,3 @@ The script "sri_calculation_JO_CE_git.R" is used for calculate the SRI for the 3
 The SRI is calculated for the time of fieldwork. 
 
 The script "citation_packages_git.R" contains all the reference of the used packages in the above scripts. 
-
-
