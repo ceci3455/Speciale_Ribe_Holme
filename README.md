@@ -34,7 +34,7 @@ score -1 is given the score 1 and sown species is given the score from NOVANA. A
 #NOVANA is calulated with no adjustments. Naturlig, the score 0 is given to the sown species. Mark, native species with the 
 score -1 is given the score 1 and sown species is given the score from NOVANA. Non of the data is scaled. 
 
-# The R-scripts: 
+# R-scripts: 
 
 #The script "NMDS_presence_git.R" is containing the code for runing a NMDS-ordination on the floristic presence data.
 #Stress-levels is also tested for choosing the correct numbers of axes. 
