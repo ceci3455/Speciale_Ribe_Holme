@@ -4,7 +4,7 @@
 # For questions and more information: ceciliekristensen1009@gmail.com
 
 This github contains the data (6 csv-files) and the scripts (5 R-scripts) 
-for the analysis botanical data from Ribe Holme:
+for the analysis botanical data from Ribe Holme.
 
 "sri_calculation_JO_CE_git.R" is created by Jonathan von Oppen with modification by Cecilie Kristensen for use to the data from Ribe Holme
 
