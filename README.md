@@ -4,9 +4,9 @@
 # For questions and more information: ceciliekristensen1009@gmail.com
 
 This github contains the data (6 csv-files) and the scripts (5 R-scripts) 
-for the analysis botanical data from Ribe Holme.
+for analysing botanical data from Ribe Holme.
 
-"sri_calculation_JO_CE_git.R" is created by Jonathan von Oppen with modification by Cecilie Kristensen for use to the data from Ribe Holme
+"sri_calculation_JO_CE_git.R" is created by Jonathan von Oppen with modification by Cecilie Kristensen
 
 # csv-files:
 
@@ -15,10 +15,10 @@ The csv-file "total_artslist.csv" contains all the names of the plant species fo
 The csv-file "presence_all.csv" contains a data matrix of all the presence/absence data (1/0) 
 for the floristic species found in the 33 plots (5-m circles)
 
-The csv-file "p_raunkiaer_all.csv" contains a data matrix of alle the raunkiaer data (a frequency of 0 - 10)
+The csv-file "p_raunkiaer_all.csv" contains a data matrix of all the raunkiaer data (a frequency of 0 - 10)
 for the floristic species found in the 29 plots (5-m circles with 10 raunkiaer circles)
 
-The csv-file "NMDS_afgrode.csv" contains a weighted estimate of grass mixtures in the crop rotation system the last 5 years.
+The csv-file "NMDS_afgrode.csv" contains a weighted estimate of grass mixtures in the crop rotation system for the last 5 years.
 Weighted for the precence of grass mixture: 2020: 0,5, 2019: 0,2, 2018: 0,15, 2017: 0,10, 2016: 0,05.
 
 The csv-file "scale_miljo" cointains environmental data for the 33 plot (5-circles) and 3 different calculated species index.
@@ -41,8 +41,8 @@ The script "NMDS_raunkiaer_git.R" is containing the code for runing a NMDS-ordin
 Stress-levels is also tested for choosing the correct numbers of axes. 
 Environmental data is added as vectors and all is visualized by the ggplot2 package
 
-The script "model_selection_git.R" has the purpose of identifying the variables that explain the 3 species index 
-and testing for significant difference between fields species index.
+The script "model_selection_git.R" has the purpose of identifying the variables that's explain the 3 species index 
+and testing for the significant difference between fields species index.
 The data is tested for normality, coliniarity and correlation. 
 The models is fit as a Mixed Effect Model after testing statical asumptions for other models and by comparisons. 
 The best model is selected by using The Akaies Information Criterion to run a backward model selection. 
@@ -50,4 +50,4 @@ The best model is selected by using The Akaies Information Criterion to run a ba
 The script "sri_calculation_JO_CE_git.R" is used for calculate the SRI for the 33 plots. 
 The SRI is calculated for the time of fieldwork. 
 
-The script "citation_packages_git.R" contains all the reference of the used packages in the above scripts. 
+The script "citation_packages_git.R" contains all the reference of the used packages in the above described scripts. 
