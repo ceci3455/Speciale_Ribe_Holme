@@ -23,31 +23,31 @@ Weighted for the precence of grass mixture: 2020: 0,5, 2019: 0,2, 2018: 0,15, 20
 
 The csv-file "scale_miljo" cointains environmental data for the 33 plot (5-circles) and 3 different calculated species index.
 The species index is calculated by the NOVANA method with different weighted systems (NOVANA, Naturlig and Mark).
-NOVANA is calulated with no adjustments. Naturlig, the score 0 is given to the sown species. Mark, native species with the 
-score -1 is given the score 1 and sown species is given the score from NOVANA. All the data is scaled. 
+NOVANA is calulated with no adjustments. Naturlig: the score 0 is given to the sown species. Mark: native species with the 
+score -1 are given the score 1 and sown species are given the score from NOVANA. All the data is scaled. 
 
 The csv-file "miljo_data_indeks_sum" cointains environmental data for the 33 plot (5-circles) and 3 different calculated species index.
 The species index is calculated by the NOVANA method with different weighted systems (NOVANA, Naturlig and Mark).
-NOVANA is calulated with no adjustments. Naturlig, the score 0 is given to the sown species. Mark, native species with the 
-score -1 is given the score 1 and sown species is given the score from NOVANA. Non of the data is scaled. 
+NOVANA is calulated with no adjustments. Naturlig: the score 0 is given to the sown species. Mark: native species with the 
+score -1 are given the score 1 and sown species are given the score from NOVANA. None of the data is scaled. 
 
 # R-scripts: 
 
-The script "NMDS_presence_git.R" is containing the code for runing a NMDS-ordination on the floristic presence data.
-Stress-levels is also tested for choosing the correct numbers of axes. 
+The script "NMDS_presence_git.R" contains the code for running a NMDS-ordination on the floristic presence data.
+Stress-levels are also tested for choosing the correct numbers of axes. 
 Environmental data is added as vectors and all is visualized by the ggplot2 package. 
 
-The script "NMDS_raunkiaer_git.R" is containing the code for runing a NMDS-ordination on the floristic raunkiaer data.
-Stress-levels is also tested for choosing the correct numbers of axes. 
+The script "NMDS_raunkiaer_git.R" contains the code for running a NMDS-ordination on the floristic raunkiaer data.
+Stress-levels are also tested for choosing the correct numbers of axes. 
 Environmental data is added as vectors and all is visualized by the ggplot2 package
 
-The script "model_selection_git.R" has the purpose of identifying the variables that's explain the 3 species index 
+The script "model_selection_git.R" has the purpose of identifying the variables that explain the 3 species index 
 and testing for the significant difference between fields species index.
 The data is tested for normality, coliniarity and correlation. 
-The models is fit as a Mixed Effect Model after testing statical asumptions for other models and by comparisons. 
+The models are fitted as a Mixed Effect Model after testing statical asumptions for other models and by comparisons. 
 The best model is selected by using The Akaies Information Criterion to run a backward model selection. 
 
-The script "sri_calculation_JO_CE_git.R" is used for calculate the SRI for the 33 plots. 
+The script "sri_calculation_JO_CE_git.R" is used to calculate the SRI for the 33 plots. 
 The SRI is calculated for the time of fieldwork. 
 
-The script "citation_packages_git.R" contains all the reference of the used packages in the above described scripts. 
+The script "citation_packages_git.R" contains all the references of the used packages in the above-mentioned scripts. 
